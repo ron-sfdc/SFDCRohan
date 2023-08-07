@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>sfdcrohan@gmail.com</contactEmail>
+    <iconUrl>https://login.salesforce.com/logos/Salesforce/Lightning/icon.png</iconUrl>
+    <label>Pricing Sync</label>
+    <logoUrl>https://login.salesforce.com/logos/Salesforce/Lightning/logo.png</logoUrl>
+    <oauthConfig>
+        <callbackUrl>https://trailhead.salesforce.com/</callbackUrl>
+        <consumerKey>3MVG9wt4IL4O5wvJ6sQAXLJbB.94yksKcqpZOhytmDMbT7xAw84UMFt0V13NvYrvuLwkMzTpcrel88IeHhcfb</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Full</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <permissionSetName>Udemy Integration</permissionSetName>
+    <profileName>System Admin2</profileName>
+    <profileName>System Administrator</profileName>
+    <sessionPolicy>
+        <sessionTimeout>1440</sessionTimeout>
+    </sessionPolicy>
+</ConnectedApp>

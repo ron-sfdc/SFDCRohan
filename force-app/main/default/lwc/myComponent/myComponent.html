@@ -1,0 +1,42 @@
+<template>
+    <lightning-record-form object-api-name={objectName} record-id={recordId} fields={fields} >
+
+    </lightning-record-form>
+    <lightning-record-form object-api-name={objectName} record-id={recordId} fields={fields} mode="readonly">
+
+    </lightning-record-form>
+    <lightning-record-view-form
+                record-id={recordId}
+                object-api-name={objectName} mode="readonly">
+        <div class="slds-grid">
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-output-field field-name="Name"></lightning-output-field>
+                <lightning-output-field field-name="Phone"></lightning-output-field>
+            </div>
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-output-field field-name="Industry"></lightning-output-field>
+                <lightning-output-field field-name="AnnualRevenue"></lightning-output-field>
+            </div>
+        </div>
+    </lightning-record-view-form>
+
+    <lightning-record-view-form
+            record-id={recordId}
+            object-api-name={accountObject}>
+        <div class="slds-grid">
+            <div class="slds-col slds-size_1-of-2">
+                <!-- Other record data here -->
+            </div>
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-formatted-text value={nameValue}
+                    class="slds-text-heading_large">
+                </lightning-formatted-text>
+            </div>
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-formatted-text value={ownerEmailValue}
+                    class="slds-text-heading_large">
+                </lightning-formatted-text>
+            </div>
+        </div>
+    </lightning-record-view-form>
+</template>
