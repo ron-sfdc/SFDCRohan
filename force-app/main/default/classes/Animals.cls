@@ -10,7 +10,7 @@ public class Animals {
         if(res.getStatusCode() == 200) {
             system.debug('### res : '+res.getBody());
         }
-        return 'Rohan';
+        return 'Rishabh';
     }
     
     @AuraEnabled
